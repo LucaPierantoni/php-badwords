@@ -10,6 +10,17 @@
 </head>
 <body>
    
-    <h1>prova</h1>
+    <h1>Bad Words</h1>
+    <form action="censored.php" method="GET" id="my_form">
+        <div class="mb-3 my_txt">
+            <label for="exampleFormControlTextarea1" class="form-label">Inserisci qui il tuo testo: </label>
+            <input name="original_text" type="text" id="text_area">
+        </div>
+        <div class="mb-3 my_txt">
+            <label for="">Parola da censurare: </label>
+            <input name="bad_word" type="text" placeholder="***">
+        </div>
+        <input id="submit" type="submit">
+    </form>
 </body>
 </html>
